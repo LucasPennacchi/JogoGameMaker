@@ -15,6 +15,14 @@ image_speed = 14*_velocity;
 move_dir = point_direction(0,0,(_key_right - _key_left), (_key_down - _key_up));
 velh = lengthdir_x(_velocity * _move_key, move_dir);
 velv = lengthdir_y(_velocity * _move_key, move_dir);
+
+if(colisao(obj_inimigo)){
+	lifes--;
+	if(lifes<=0){
+		visible=false;
+		game_restart();
+	}
+}
 		
 colisao(obj_parede);
 x += velh;

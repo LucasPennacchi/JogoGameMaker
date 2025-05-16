@@ -34,6 +34,9 @@
     "name":"spr_personagem",
     "path":"sprites/spr_personagem/spr_personagem.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_personagem",
+    "path":"sprites/spr_personagem/spr_personagem.yy",
+  },
   "visible":true,
 }

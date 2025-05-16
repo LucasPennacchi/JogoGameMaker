@@ -1,0 +1,1 @@
+ataque_recarga = 0;

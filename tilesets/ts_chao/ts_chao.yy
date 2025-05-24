@@ -1,15 +1,17 @@
 {
   "$GMTileSet":"v1",
   "%Name":"ts_chao",
-  "autoTileSets":[],
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"Sombra","closed_edge":true,"name":"Sombra","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[77,0,0,65,0,76,0,64,0,0,78,66,89,88,90,0,],},
+  ],
   "macroPageTiles":{
-    "SerialiseHeight":4,
-    "SerialiseWidth":4,
-    "TileCompressedData":[-5,0,11,10,11,12,0,20,21,22,0,30,31,32,],
+    "SerialiseHeight":5,
+    "SerialiseWidth":5,
+    "TileCompressedData":[-6,0,1,10,-18,0,],
     "TileDataFormat":1,
   },
   "name":"ts_chao",
-  "out_columns":7,
+  "out_columns":10,
   "out_tilehborder":0,
   "out_tilevborder":0,
   "parent":{
@@ -35,5 +37,5 @@
   "tileWidth":64,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":50,
+  "tile_count":108,
 }

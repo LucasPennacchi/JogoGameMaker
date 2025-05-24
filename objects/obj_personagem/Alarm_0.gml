@@ -1,1 +1,1 @@
-ataque_recarga = 0;
+em_recarga = 0;

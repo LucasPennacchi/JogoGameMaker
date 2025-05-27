@@ -1,4 +1,4 @@
 if (instance_exists(alvo)){
-	x = alvo.x + modificador_x;
-	y = alvo.y + modificador_y;
+	x = alvo.x + mod_x;
+	y = alvo.y + mod_y;
 }

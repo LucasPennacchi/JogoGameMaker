@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_personagem_atacando2",
+  "%Name":"spr_personagem_combo",
   "bboxMode":0,
   "bbox_bottom":145,
   "bbox_left":32,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"afc9d3fb-8f93-41c4-9747-a6614212dd93","blendMode":0,"displayName":"default","isLocked":false,"name":"afc9d3fb-8f93-41c4-9747-a6614212dd93","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_personagem_atacando2",
+  "name":"spr_personagem_combo",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"personagem",
-    "path":"folders/Sprites/personagem.yy",
+    "name":"jogador",
+    "path":"folders/Sprites/Personagens/jogador.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_personagem_atacando2",
+    "%Name":"spr_personagem_combo",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_personagem_atacando2",
+    "name":"spr_personagem_combo",
     "playback":1,
     "playbackSpeed":25.0,
     "playbackSpeedType":0,
@@ -74,16 +74,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"279d6c25-a91d-41f5-9e28-b7b61f58688b","path":"sprites/spr_personagem_atacando2/spr_personagem_atacando2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"279d6c25-a91d-41f5-9e28-b7b61f58688b","path":"sprites/spr_personagem_combo/spr_personagem_combo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2f6c1713-bf9f-4b7f-b8bf-51f0fa64ae54","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb00452f-7b6d-49d2-96a7-64e971477c8a","path":"sprites/spr_personagem_atacando2/spr_personagem_atacando2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bb00452f-7b6d-49d2-96a7-64e971477c8a","path":"sprites/spr_personagem_combo/spr_personagem_combo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"a73e7c9b-2ac5-4fb2-ac74-bb5b4a58860a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9d1a412-9980-4f4a-ba76-89822fff99e7","path":"sprites/spr_personagem_atacando2/spr_personagem_atacando2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e9d1a412-9980-4f4a-ba76-89822fff99e7","path":"sprites/spr_personagem_combo/spr_personagem_combo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b2268a60-af7b-443a-a0c5-4f249af6ca9b","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fea15b5-074d-4368-941e-1997506f64d9","path":"sprites/spr_personagem_atacando2/spr_personagem_atacando2.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1fea15b5-074d-4368-941e-1997506f64d9","path":"sprites/spr_personagem_combo/spr_personagem_combo.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"79e3cea6-8696-4726-80a1-518c713a0e65","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

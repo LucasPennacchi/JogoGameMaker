@@ -1,0 +1,1 @@
+if (instance_exists(ataque)) instance_destroy(ataque);

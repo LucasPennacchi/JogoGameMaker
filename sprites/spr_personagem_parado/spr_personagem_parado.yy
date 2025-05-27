@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"spr_personagem",
+  "%Name":"spr_personagem_parado",
   "bboxMode":2,
   "bbox_bottom":139,
   "bbox_left":75,
@@ -26,19 +26,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"80a03ce7-2de8-4cc5-b215-d65695fd0f99","blendMode":0,"displayName":"default","isLocked":false,"name":"80a03ce7-2de8-4cc5-b215-d65695fd0f99","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_personagem",
+  "name":"spr_personagem_parado",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"personagem",
-    "path":"folders/Sprites/personagem.yy",
+    "name":"jogador",
+    "path":"folders/Sprites/Personagens/jogador.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_personagem",
+    "%Name":"spr_personagem_parado",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -62,7 +62,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_personagem",
+    "name":"spr_personagem_parado",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -76,22 +76,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc1114b7-e062-48e1-b8b1-fcbb75082cc0","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc1114b7-e062-48e1-b8b1-fcbb75082cc0","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"f9ff167f-33c0-4922-9c41-ca17f11df94c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"814463b0-2001-4936-99dd-fffacd647b74","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"814463b0-2001-4936-99dd-fffacd647b74","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"2ba8d72c-9f6d-4ed3-8883-e243240e10eb","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"452ffb72-ea1d-4315-ace4-3bce2e04f244","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"452ffb72-ea1d-4315-ace4-3bce2e04f244","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"66af87ee-2404-4756-a19e-e9bb8852f078","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"256abe17-8171-46ba-9eb3-aa569d77ffff","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"256abe17-8171-46ba-9eb3-aa569d77ffff","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b5a215a7-ea74-4312-9af7-ccc1efdfca85","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24a7af93-f7b1-42e7-b9b0-f1eb48b3cf7d","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"24a7af93-f7b1-42e7-b9b0-f1eb48b3cf7d","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"d953fa16-b299-4ee4-aa82-630238e10a71","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"464169c2-c959-4b95-ad9e-34dca834c415","path":"sprites/spr_personagem/spr_personagem.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"464169c2-c959-4b95-ad9e-34dca834c415","path":"sprites/spr_personagem_parado/spr_personagem_parado.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"25bc8297-1cca-4e54-a562-f3902bc778a2","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

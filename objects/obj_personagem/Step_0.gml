@@ -14,6 +14,7 @@ move_dir = point_direction(0,0,(_key_right - _key_left), (_key_down - _key_up));
 
 var _velocidade = velc;
 if (atacando) _velocidade = velc/2;
+if (morrendo) _velocidade = 0;
 
 velh = lengthdir_x(_velocidade * _move_key, move_dir);
 velv = lengthdir_y(_velocidade * _move_key, move_dir);
@@ -26,6 +27,8 @@ y += velv;
 
 #region ANIMATION
 
+image_alpha = invulneravel? 0.7 : 1;
+
 if (velh != 0 && !atacando) {
 	image_xscale = sign(velh);
 }
@@ -37,18 +40,20 @@ if (atacando){
 	}
 }
 
-if (atacando) {
-	if (combo) {
-	    sprite_index = spr_personagem_atacando2;
-	}
-	else {
-	    sprite_index = spr_personagem_atacando;
-	}
-} else {
-	if (_move_key) {
-		sprite_index = spr_personagem_andando;
+if (!morrendo){
+	if (atacando) {
+		if (combo) {
+		    sprite_index = spr_personagem_combo;
+		}
+		else {
+		    sprite_index = spr_personagem_atacando;
+		}
 	} else {
-		sprite_index = spr_personagem;
+		if (_move_key) {
+			sprite_index = spr_personagem_andando;
+		} else {
+			sprite_index = spr_personagem_parado;
+		}
 	}
 }
 
@@ -58,6 +63,15 @@ if (atacando) {
 
 if (vida > vida_maxima) {
 	vida = vida_maxima;
+}
+if (vida < 0) {
+	vida = 0;
+}
+
+if (vida == 0 && !morrendo){
+	image_index = 0;
+	sprite_index = spr_caveira;
+	morrendo = true;
 }
 
 #endregion
@@ -70,9 +84,9 @@ if (!atacando && !em_recarga && _key_atk){ //comeca atk
 	image_index = 0;
 	atacando = true;
 	
-	instance_create_depth(x,y,0,ataque);
+	ataque = instance_create_depth(x,y,0,obj_atk_hitbox1);
 	ataque.image_angle = point_direction(x,y,mouse_x,mouse_y);
-	ataque.alvo = self;
+	ataque.alvo = id;
 	ataque.mod_y = 32;
 }
 

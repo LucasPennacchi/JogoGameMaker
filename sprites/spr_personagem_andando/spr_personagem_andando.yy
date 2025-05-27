@@ -30,8 +30,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"personagem",
-    "path":"folders/Sprites/personagem.yy",
+    "name":"jogador",
+    "path":"folders/Sprites/Personagens/jogador.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

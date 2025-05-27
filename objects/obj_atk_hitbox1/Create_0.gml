@@ -1,4 +1,4 @@
 alvo = -1;
 
-modificador_x = 0;
-modificador_y = 0;
+mod_x = 0;
+mod_y = 0;

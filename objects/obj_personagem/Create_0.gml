@@ -8,6 +8,8 @@ dinheiro = 0;
 vida_maxima = 10
 vida = vida_maxima;
 
+morrendo = false;
+
 #region ataque
 
 atacando = false;
@@ -22,3 +24,6 @@ combo_timer = 1;
 dano = 1;
 
 #endregion
+
+invulneravel = false;
+tempo_invulneravel = 1.5;

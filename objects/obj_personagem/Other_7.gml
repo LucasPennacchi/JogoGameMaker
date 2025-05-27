@@ -10,7 +10,7 @@ if (sprite_index == spr_personagem_atacando){
 	alarm[1] = room_speed * combo_timer;
 }
 
-if (sprite_index == spr_personagem_atacando2){
+if (sprite_index == spr_personagem_combo){
 	atacando = false;
 	em_recarga = true;
 	
@@ -19,4 +19,8 @@ if (sprite_index == spr_personagem_atacando2){
 	alarm[0] = room_speed * tempo_recarga;
 	
 	combo = false;
+}
+
+if (sprite_index == spr_caveira){
+	room_restart();
 }

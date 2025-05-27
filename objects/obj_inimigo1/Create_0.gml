@@ -1,6 +1,8 @@
+depth = 4;
+
 alvo = obj_personagem;
 
-vida_maxima = 10;
+vida_maxima = 2;
 vida = vida_maxima;
 
 dano = 1;
@@ -13,7 +15,9 @@ velc = 2;
 velh = 0;
 velv = 0;
 
-alcance_ataque = 40;
+alcance_ataque = 10;
+
+grupo = 1;
 
 path = path_add();
 
@@ -21,3 +25,6 @@ parado = false;
 
 invulneravel = false;
 tempo_invulneravel = 1;
+
+tempo_despawn = 60;
+alarm[4] = room_speed * 1;

@@ -1,0 +1,1 @@
+melhor_score = 0;

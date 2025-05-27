@@ -1,5 +1,3 @@
-spawn = obj_dinheiro;
+spawn = obj_inimigo1;
 
-repeat(random(7)){
-	instance_create_layer( x + (random(500) * (random(2)-1)), y + (random(500) * (random(2)-1)), "Instances", spawn );
-}
+alarm[0] = room_speed * 5;

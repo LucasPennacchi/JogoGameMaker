@@ -38,7 +38,7 @@ if (vida < 0) {
 	vida = 0;
 }
 
-if (vida == 0){
+if (vida == 0 || tempo_despawn == 0){
 	instance_destroy();
 }
 

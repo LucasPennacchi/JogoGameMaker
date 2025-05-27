@@ -1,3 +1,5 @@
+depth = 5;
+
 velc = 5;
 velh = 0;
 velv = 0;
@@ -11,6 +13,8 @@ vida = vida_maxima;
 morrendo = false;
 
 #region ataque
+
+grupo = 0;
 
 atacando = false;
 em_recarga = false;

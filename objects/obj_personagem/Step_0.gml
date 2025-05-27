@@ -19,7 +19,7 @@ if (morrendo) _velocidade = 0;
 velh = lengthdir_x(_velocidade * _move_key, move_dir);
 velv = lengthdir_y(_velocidade * _move_key, move_dir);
 
-colisao(obj_parede);
+colisao(obj_colisao);
 
 x += velh;
 y += velv;
@@ -27,7 +27,7 @@ y += velv;
 
 #region ANIMATION
 
-image_alpha = invulneravel? 0.7 : 1;
+if (!morrendo) image_alpha = invulneravel? 0.7 : 1;
 
 if (velh != 0 && !atacando) {
 	image_xscale = sign(velh);
@@ -71,6 +71,7 @@ if (vida < 0) {
 if (vida == 0 && !morrendo){
 	image_index = 0;
 	sprite_index = spr_caveira;
+	image_alpha = 1;
 	morrendo = true;
 }
 
@@ -80,13 +81,14 @@ if (vida == 0 && !morrendo){
 
 if (!atacando && !em_recarga && _key_atk){ //comeca atk
 	if (combo) alarm[1] = -1;
-		
+	
 	image_index = 0;
 	atacando = true;
 	
 	ataque = instance_create_depth(x,y,0,obj_atk_hitbox1);
 	ataque.image_angle = point_direction(x,y,mouse_x,mouse_y);
 	ataque.alvo = id;
+	ataque.grupo = grupo;
 	ataque.mod_y = 32;
 }
 

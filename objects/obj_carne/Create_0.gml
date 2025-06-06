@@ -1,3 +1,3 @@
 image_index = 0;
 
-vida = 1;
+vida = 20;

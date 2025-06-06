@@ -1,5 +1,10 @@
-if (instance_exists(obj_personagem)){
-	if (obj_personagem.dinheiro > melhor_score){
-		melhor_score = obj_personagem.dinheiro;
-	}
+var _player = obj_personagem
+global.cronometro += 1;
+if (instance_exists(_player) && _player.vida == 0){
+	pontuacao += int64(_player.dinheiro * 0.5);
+	_player.dinheiro = 0;
+	atualiza_score();
+	pontuacao = 0;
+	global.cronometro = 0;
 }
+atualiza_score();

@@ -1,0 +1,1 @@
+draw_text(100,200,string("Dinheiro: {0}$",dinheiro))

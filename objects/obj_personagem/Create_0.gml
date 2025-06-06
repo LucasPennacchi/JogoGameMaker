@@ -7,7 +7,7 @@ move_dir = 0;
 
 dinheiro = 0;
 
-vida_maxima = 10
+vida_maxima = 100
 vida = vida_maxima;
 
 morrendo = false;
@@ -28,6 +28,8 @@ combo_timer = 1;
 dano = 1;
 
 #endregion
+
+auto_ataque = false;
 
 invulneravel = false;
 tempo_invulneravel = 1.5;

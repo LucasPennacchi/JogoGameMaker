@@ -1,0 +1,1 @@
+if (!instance_exists(alvo)) instance_destroy();

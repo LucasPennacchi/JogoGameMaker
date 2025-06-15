@@ -1,4 +1,4 @@
-var _player = obj_personagem
+var _player = obj_personagem;
 global.cronometro += 1;
 if (instance_exists(_player) && _player.vida == 0){
 	pontuacao += int64(_player.dinheiro * 0.5);

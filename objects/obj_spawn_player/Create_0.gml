@@ -7,5 +7,4 @@ range_min = 700;
 
 max_count = 30;
 
-
 alarm[0] = room_speed * spawn_speed;

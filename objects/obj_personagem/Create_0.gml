@@ -1,3 +1,5 @@
+size = 1;
+
 depth = 5;
 
 velc = 5;

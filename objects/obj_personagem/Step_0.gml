@@ -18,6 +18,7 @@ var _velocidade = velc;
 if (atacando) _velocidade = velc/1.2;
 if (morrendo) _velocidade = 0;
 
+
 velh = lengthdir_x(_velocidade * _move_key, move_dir);
 velv = lengthdir_y(_velocidade * _move_key, move_dir);
 
@@ -32,13 +33,13 @@ y += velv;
 if (!morrendo) image_alpha = invulneravel? 0.7 : 1;
 
 if (velh != 0 && !atacando) {
-	image_xscale = sign(velh);
+	image_xscale = sign(velh) * size;
 }
 if (atacando){
 	if (ataque.image_angle > 90 && ataque.image_angle < 270 ){
-		image_xscale = -1;
+		image_xscale = -1 * size;
 	} else {
-		image_xscale = 1;
+		image_xscale = 1 * size;
 	}
 }
 
@@ -81,7 +82,7 @@ if (vida == 0 && !morrendo){
 
 #region ATAQUE
 
-if (!atacando && !em_recarga && (auto_ataque? true : _key_atk)){ //comeca atk
+if (!morrendo && !atacando && !em_recarga && (auto_ataque? true : _key_atk)){ //comeca atk
 	if (combo) alarm[1] = -1;
 	
 	image_index = 0;

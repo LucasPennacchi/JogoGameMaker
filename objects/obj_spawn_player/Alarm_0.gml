@@ -1,8 +1,7 @@
-
 repeat(spawn_per_batch){
 	var _spawnX = x + (random(range_max) * (random(2)-1));
 	var _spawnY = y + (random(range_max) * (random(2)-1));
-	while (point_distance(x,y,_spawnX,_spawnY) < range_min){
+	while (point_distance(x,y,_spawnX,_spawnY) < range_min && !place_meeting(_spawnX,_spawnY, obj_colisao)){
 		_spawnX = x + (random(range_max) * (random(2)-1));
 		_spawnY = y + (random(range_max) * (random(2)-1));
 	}
